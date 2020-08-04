@@ -1,0 +1,118 @@
+*{
+	 margin: 0;
+	 padding: 0;
+	   box-sizing: border-box;
+
+}
+.header{
+   padding: 40px;
+   width: 100%;
+}
+.tbl{
+   padding: 40px;
+}
+input[type=text] {
+  padding: 10px;
+}
+.intName{
+  padding: 10px;
+ align-items: center;
+ font-family: inherit;
+  border: 0;
+  outline: 1;
+  border-bottom: 2px solid $gray;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+ border: none;
+    border-bottom: 2px solid #ADB3B3 ;  
+  
+}
+.adbtn{
+padding: 23px;
+
+}
+.addbtn{
+background-color:#44c767;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+
+} 
+
+.addbtn:hover{
+   background-color:#5cbf2a;
+}
+.additem{
+	 justify-content: center;
+	background-color: green;
+}
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  width: 100%;
+   align-items: center;
+  align-items: center;
+	}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+   align-items: center;
+  align-items: center;
+}
+
+
+#customers tr:hover {
+	background-color: #ddd;
+	 align-items: center;
+  align-items: center;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  color: white;
+   align-items: center;
+  align-items: center;
+}
+
+   .rmbtn
+{
+display:flex;
+justify-content: space-around;
+text-decoration: none;
+
+}
+.edbtn{
+	 text-decoration: none;
+	 background-color: white;
+	 font-size: 20px;
+}
+.edbtn:hover{
+
+     border-radius:8px;
+border-style: none;
+}
+.rembtn{
+	 width: 70px;
+	 height: 30px;
+}
+.rembtn:hover{
+ background-color: lightgray;
+   border-bottom: 2px solid gray;
+     border-radius:8px;
+border-style: groove;
+border-style: none;
+text-transform: uppercase;
+
+
+}
